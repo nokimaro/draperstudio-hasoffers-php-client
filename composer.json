@@ -1,0 +1,51 @@
+{
+    "name": "draperstudio/hasoffers-php-client",
+    "type": "library",
+    "description": "A HasOffers Client for PHP",
+    "keywords": [
+        "draperstudio",
+        "hasoffers-php-client"
+    ],
+    "homepage": "https://github.com/draperstudio/hasoffers-php-client",
+    "license": "MIT",
+    "authors": [{
+        "name": "DraperStudio",
+        "email": "hello@draperstudio.tech",
+        "homepage": "http://draperstudio.tech",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.1",
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DraperStudio\\HasOffers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DraperStudio\\Tests\\HasOffers\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
