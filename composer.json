@@ -1,5 +1,5 @@
 {
-    "name": "draperstudio/hasoffers-php-client",
+    "name": "nokimaro/draperstudio-hasoffers-php-client",
     "type": "library",
     "description": "A HasOffers Client for PHP",
     "keywords": [
